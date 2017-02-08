@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="task5.hasmukhi.admin.task5.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="435dp"
+        android:orientation="vertical"
+        android:id="@+id/fr1_ll_ed_layout">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:id="@+id/fr1_ed_name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:id="@+id/fr1_ll_btn_layout">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Go a"
+            android:id="@+id/fr1_btn1"/>
+    </LinearLayout>
+
+</LinearLayout>

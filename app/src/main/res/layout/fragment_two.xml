@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="task5.hasmukhi.admin.task5.FragmentTwo"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="426dp"
+        android:orientation="vertical"
+        android:id="@+id/fr2_ll_ed_layout"
+        android:layout_weight="0.87">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fr2_ed_name"
+        android:hint="name"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/fr2_ll_btn_layout"
+        android:gravity="bottom"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:text="Go back"
+            android:id="@+id/fr2_btn_back"
+            android:layout_weight="0.56" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Go b"
+            android:id="@+id/fr2_btn_go"
+            android:layout_weight="0.48" />
+     </LinearLayout>
+
+</LinearLayout>
